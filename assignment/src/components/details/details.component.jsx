@@ -11,7 +11,7 @@ export const DetailsComponent = ({ user: { name, username, email, phone, website
                 <div>- Website: {website}</div>
                 <div>- Company: {companyName}</div>
                 <div>- Address:
-            <li>{street}</li>
+                    <li>{street}</li>
                     <li>{suite}</li>
                     <li>{city}</li>
                     <li>{zipcode}</li>
