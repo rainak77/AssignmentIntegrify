@@ -12,13 +12,13 @@ export const Details = (props) => {
     useEffect(() => {
         fetchUserById(id).then(data => setUser(data));
     }, []);
-    
+
     if (!user.name) {
         return 'loading!!!';
     }
     return (
         <div>
-            <p>{user.id}: User Detail page </p>
+            <h2 className='info'>{user.id}: User Detail page </h2>
             <div className='details'>
                 <DetailsComponent user={user} />
             </div>

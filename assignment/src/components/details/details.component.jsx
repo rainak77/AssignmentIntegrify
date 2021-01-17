@@ -8,13 +8,13 @@ export const DetailsComponent = ({ user: { name, username, email, phone, website
                 <div>- Username: {username}</div>
                 <div>- Email: {email}</div>
                 <div>- Phone: {phone}</div>
-                <div>- Website: {website}</div>
                 <div>- Company: {companyName}</div>
+                <div>- Website: {website}</div>
                 <div>- Address:
-                    <li>{street}</li>
-                    <li>{suite}</li>
-                    <li>{city}</li>
-                    <li>{zipcode}</li>
+                    <li>street: {street}</li>
+                    <li>suite: {suite}</li>
+                    <li>city: {city}</li>
+                    <li>zipcode: {zipcode}</li>
                 </div>
             </div>
             : null
