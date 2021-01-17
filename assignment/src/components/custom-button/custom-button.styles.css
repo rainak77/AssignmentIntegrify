@@ -1,0 +1,28 @@
+.custom-button {
+    min-width: 65px;
+    width: auto;
+    height: 30px;
+    padding: 0 15px 0 15px;
+    font-size: 15px;
+    background-color: #799bd3;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Open Sans Condensed";
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    outline: none;
+}
+
+.custom-button:hover {
+    background-color: #3067c0;
+    color: rgb(252, 241, 241);
+}
+
+@media screen and (max-width: 940px) {
+    .custom-button {
+        font-size: 12px;
+    }
+}
